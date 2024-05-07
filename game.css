@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+body{
+    background-color:rgb(165, 30, 81);
+}
+
+h1{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 1rem;
+    
+
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 5rem;
+}
+
+
+
+.opt{
+   height: 10rem;
+   width: 10rem;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.opt:hover{
+    cursor: pointer;
+    background-color:yellow;
+}
+
+img{
+    height: 9rem;
+    width: 9rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name-opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+    
+}
+
+.name-op{
+   width: 5rem;
+   height:1.5rem;
+   color: red;
+   font-weight: 800;
+   background-color: rgb(43, 226, 98);
+   border-radius: 10px;
+   font: 2rem;
+   
+}  
+
+
+/* here end of all main compnent costomizing */
+
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+/* display massages */
+
+
+.msg-container{
+    margin-top: 2rem;
+
+}
+    
+#msg-show{
+    font-size: 2.5rem;
+    background-color:cornflowerblue;
+    color: white;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+    
+    
+    
+   
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

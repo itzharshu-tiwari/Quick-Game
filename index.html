@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLAY GAME</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+
+
+  <body>
+    <h1>ROCK PAPAER SCISSOR GAME</h1>
+
+    <!-- option menu and its element -->
+
+    <div class="option">
+      <div class="opt" id="rock">
+        <img src="imgs/rock.img.jpg" alt="imgrock" />
+      </div>
+
+      <div class="opt" id="paper">
+        <img src="imgs/paper.img.jpg" alt="imgpaper" />
+      </div>
+
+      <div class="opt" id="scissor">
+        <img src="imgs/scissor.img.jpg" alt="imgscissor" />
+      </div>
+    </div>
+
+    <!-- Here its option name and its opt -->
+
+    <div class="name-opt">
+      <p class="name-op">ROCK</p>
+      <p class="name-op">PAPER</p>
+      <p class="name-op">SCISOR</p>
+    </div>
+
+    <!-- score bord section       -->
+
+    <div class="score">
+
+      <div class="your-score">
+
+        <p id="user-score">0</p>
+
+        <p >You</p>
+
+      </div>
+
+      <div class="com-score">
+        
+        <p id="comp-score">0</p>
+
+        <p >comp</p>
+        
+      </div>
+    </div>
+
+    <!-- display massages  -->
+
+    <div class="msg-container">
+      <p id="msg-show"> choose your move  </p>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
